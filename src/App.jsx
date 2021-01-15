@@ -1,38 +1,26 @@
-import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext, useState } from 'react';
+import NavBar from './components/NavBar'
+import Grid from '@material-ui/core/Grid'
+import PeopleList from './components/PeopleList'
+import Person from './components/Person'
+import StoreContext from './store'
 
 function App() {
-  // Create the count state.
-  const [count, setCount] = useState(0);
-  // Create the counter (+1 every second).
-  useEffect(() => {
-    const timer = setTimeout(() => setCount(count + 1), 1000);
-    return () => clearTimeout(timer);
-  }, [count, setCount]);
-  // Return the App component.
+  const [selected, setSelected] = useState()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          Page has been open for <code>{count}</code> seconds.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
-    </div>
+    <StoreContext.Provider value={{ selected, setSelected }}>
+      <div className="App">
+        <NavBar />
+        <Grid container>
+          <Grid item xs sm md={4} lg={3}>
+            <PeopleList />
+          </Grid>
+          <Grid item xs sm md={8} lg={9}>
+            <Person />
+          </Grid>
+        </Grid>
+      </div>
+    </StoreContext.Provider>
   );
 }
 

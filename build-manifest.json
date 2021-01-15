@@ -1,0 +1,719 @@
+{
+  "inputs": {
+    "_snowpack/env.js": {
+      "bytes": 97,
+      "imports": []
+    },
+    "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js": {
+      "bytes": 885,
+      "imports": []
+    },
+    "_snowpack/pkg/common/index-f859b2f5.js": {
+      "bytes": 8631,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/react.js": {
+      "bytes": 310,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/index-d84f53a3.js": {
+      "bytes": 127512,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/react-dom.js": {
+      "bytes": 204,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-d84f53a3.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-d84f53a3.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/defaultTheme-ed8dce49.js": {
+      "bytes": 140870,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/withStyles-56da781f.js": {
+      "bytes": 10009,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/defaultTheme-ed8dce49.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/capitalize-1f037a6d.js": {
+      "bytes": 504,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/defaultTheme-ed8dce49.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@material-ui/core/AppBar.js": {
+      "bytes": 5388,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/defaultTheme-ed8dce49.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/withStyles-56da781f.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/capitalize-1f037a6d.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@material-ui/core/Toolbar.js": {
+      "bytes": 2016,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/defaultTheme-ed8dce49.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/withStyles-56da781f.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/Typography-a9cf92cc.js": {
+      "bytes": 6127,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/defaultTheme-ed8dce49.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/withStyles-56da781f.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/capitalize-1f037a6d.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@material-ui/core/Typography.js": {
+      "bytes": 405,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/defaultTheme-ed8dce49.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/withStyles-56da781f.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/capitalize-1f037a6d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/Typography-a9cf92cc.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/Typography-a9cf92cc.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@material-ui/core/styles.js": {
+      "bytes": 453,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/defaultTheme-ed8dce49.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/NavBar.js": {
+      "bytes": 785,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/AppBar.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/Toolbar.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/Typography.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/styles.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@material-ui/core/Grid.js": {
+      "bytes": 9003,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/defaultTheme-ed8dce49.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/withStyles-56da781f.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@material-ui/core/Divider.js": {
+      "bytes": 3052,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/defaultTheme-ed8dce49.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/withStyles-56da781f.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/ListContext-abcea428.js": {
+      "bytes": 166,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@material-ui/core/List.js": {
+      "bytes": 2124,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/defaultTheme-ed8dce49.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/withStyles-56da781f.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/ListContext-abcea428.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@material-ui/core/ListItem.js": {
+      "bytes": 41907,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/defaultTheme-ed8dce49.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/withStyles-56da781f.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/ListContext-abcea428.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-d84f53a3.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@material-ui/core/ListItemText.js": {
+      "bytes": 3376,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/defaultTheme-ed8dce49.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/withStyles-56da781f.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/capitalize-1f037a6d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/ListContext-abcea428.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/Typography-a9cf92cc.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/graphql-request.js": {
+      "bytes": 63826,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/request.js": {
+      "bytes": 164,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/graphql-request.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/queries.js": {
+      "bytes": 579,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/graphql-request.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/store.js": {
+      "bytes": 84,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/PeopleList.js": {
+      "bytes": 2196,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/styles.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/Divider.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/List.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/ListItem.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/ListItemText.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/Toolbar.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/request.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/queries.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/store.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@material-ui/core/ListSubheader.js": {
+      "bytes": 2822,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/defaultTheme-ed8dce49.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-f859b2f5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/withStyles-56da781f.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/capitalize-1f037a6d.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/Person.js": {
+      "bytes": 3246,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/styles.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/Divider.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/List.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/ListItem.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/ListItemText.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/ListSubheader.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/Toolbar.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/Typography.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/request.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/queries.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/store.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/App.js": {
+      "bytes": 985,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/NavBar.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@material-ui/core/Grid.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/PeopleList.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/Person.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/store.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/index.css": {
+      "bytes": 99,
+      "imports": []
+    },
+    "dist/index.js": {
+      "bytes": 513,
+      "imports": [
+        {
+          "path": "_snowpack/env.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/App.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/index.css",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "_snowpack/env.js": {
+          "bytesInOutput": 100
+        },
+        "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js": {
+          "bytesInOutput": 495
+        },
+        "_snowpack/pkg/common/index-f859b2f5.js": {
+          "bytesInOutput": 6914
+        },
+        "_snowpack/pkg/react.js": {
+          "bytesInOutput": 49
+        },
+        "_snowpack/pkg/common/index-d84f53a3.js": {
+          "bytesInOutput": 124011
+        },
+        "_snowpack/pkg/react-dom.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/common/defaultTheme-ed8dce49.js": {
+          "bytesInOutput": 53861
+        },
+        "_snowpack/pkg/common/withStyles-56da781f.js": {
+          "bytesInOutput": 4485
+        },
+        "_snowpack/pkg/common/capitalize-1f037a6d.js": {
+          "bytesInOutput": 104
+        },
+        "_snowpack/pkg/@material-ui/core/AppBar.js": {
+          "bytesInOutput": 2035
+        },
+        "_snowpack/pkg/@material-ui/core/Toolbar.js": {
+          "bytesInOutput": 639
+        },
+        "_snowpack/pkg/common/Typography-a9cf92cc.js": {
+          "bytesInOutput": 1921
+        },
+        "_snowpack/pkg/@material-ui/core/Typography.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/@material-ui/core/styles.js": {
+          "bytesInOutput": 115
+        },
+        "dist/components/NavBar.js": {
+          "bytesInOutput": 242
+        },
+        "_snowpack/pkg/@material-ui/core/Grid.js": {
+          "bytesInOutput": 3436
+        },
+        "_snowpack/pkg/@material-ui/core/Divider.js": {
+          "bytesInOutput": 1004
+        },
+        "_snowpack/pkg/common/ListContext-abcea428.js": {
+          "bytesInOutput": 27
+        },
+        "_snowpack/pkg/@material-ui/core/List.js": {
+          "bytesInOutput": 651
+        },
+        "_snowpack/pkg/@material-ui/core/ListItem.js": {
+          "bytesInOutput": 14134
+        },
+        "_snowpack/pkg/@material-ui/core/ListItemText.js": {
+          "bytesInOutput": 1013
+        },
+        "_snowpack/pkg/graphql-request.js": {
+          "bytesInOutput": 27308
+        },
+        "dist/request.js": {
+          "bytesInOutput": 76
+        },
+        "dist/queries.js": {
+          "bytesInOutput": 479
+        },
+        "dist/store.js": {
+          "bytesInOutput": 25
+        },
+        "dist/components/PeopleList.js": {
+          "bytesInOutput": 831
+        },
+        "_snowpack/pkg/@material-ui/core/ListSubheader.js": {
+          "bytesInOutput": 951
+        },
+        "dist/components/Person.js": {
+          "bytesInOutput": 1219
+        },
+        "dist/App.js": {
+          "bytesInOutput": 340
+        },
+        "dist/index.css": {
+          "bytesInOutput": 0
+        },
+        "dist/index.js": {
+          "bytesInOutput": 123
+        }
+      },
+      "bytes": 247190
+    },
+    "../~~bundle~~/dist/index.css": {
+      "imports": [],
+      "inputs": {
+        "dist/index.css": {
+          "bytesInOutput": 83
+        }
+      },
+      "bytes": 84
+    }
+  }
+}

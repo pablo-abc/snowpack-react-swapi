@@ -12,10 +12,10 @@ function App() {
       <div className="App">
         <NavBar />
         <Grid container>
-          <Grid item xs sm md={4} lg={3}>
+          <Grid item md={4} lg={3}>
             <PeopleList />
           </Grid>
-          <Grid item xs sm md={8} lg={9}>
+          <Grid item md={8} lg={9}>
             <Person />
           </Grid>
         </Grid>

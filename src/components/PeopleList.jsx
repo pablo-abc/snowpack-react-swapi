@@ -11,12 +11,11 @@ import StoreContext from '../store'
 
 const useStyles = makeStyles((theme) => ({
   list: {
-    [theme.breakpoints.up('md')]: {
-      borderRight: '1px solid',
-      borderRightColor: theme.palette.divider,
-      overflowY: 'scroll',
-      height: '100vh',
-    },
+    borderRight: '1px solid',
+    borderRightColor: theme.palette.divider,
+    overflowY: 'scroll',
+    height: '100vh',
+    padding: 0,
   },
 }))
 

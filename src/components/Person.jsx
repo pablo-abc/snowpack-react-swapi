@@ -17,17 +17,13 @@ const useStyles = makeStyles({
   },
   rowText: {
     fontWeight: 'bold',
-    '&::first-letter': {
-      textTransform: 'capitalize',
-    },
-  },
-  subheader: {
-    fontSize: '1rem',
-    marginBottom: '0px',
-    marginTop: '32px',
+    textTransform: 'capitalize',
   },
   list: {
     margin: '0 5%',
+  },
+  vehiclesSubheader: {
+    marginTop: '2rem',
   },
 })
 
@@ -79,14 +75,14 @@ function Person() {
     <>
       <Toolbar />
       <List className={classes.list}>
-        <ListSubheader classes={classes.subheader} color="primary">
+        <ListSubheader>
           General Information
         </ListSubheader>
         <PersonRow title="Eye Color" text={person.eyeColor} />
         <PersonRow title="Hair Color" text={person.hairColor} />
         <PersonRow title="Skin Color" text={person.skinColor} />
         <PersonRow title="Birth Year" text={person.birthYear} />
-        <ListSubheader className={classes.subheader} color="primary">
+        <ListSubheader className={classes.vehiclesSubheader}>
           Vehicles
         </ListSubheader>
         {person.vehicleConnection.vehicles.map(vehicle => (

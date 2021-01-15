@@ -224,8 +224,8 @@
         }
       ]
     },
-    "dist/components/NavBar.js": {
-      "bytes": 785,
+    "snowpack-react-swapi/dist/components/NavBar.js": {
+      "bytes": 800,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -396,8 +396,8 @@
         }
       ]
     },
-    "dist/request.js": {
-      "bytes": 164,
+    "snowpack-react-swapi/dist/request.js": {
+      "bytes": 167,
       "imports": [
         {
           "path": "_snowpack/pkg/graphql-request.js",
@@ -405,8 +405,8 @@
         }
       ]
     },
-    "dist/queries.js": {
-      "bytes": 579,
+    "snowpack-react-swapi/dist/queries.js": {
+      "bytes": 582,
       "imports": [
         {
           "path": "_snowpack/pkg/graphql-request.js",
@@ -414,8 +414,8 @@
         }
       ]
     },
-    "dist/store.js": {
-      "bytes": 84,
+    "snowpack-react-swapi/dist/store.js": {
+      "bytes": 87,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -423,8 +423,8 @@
         }
       ]
     },
-    "dist/components/PeopleList.js": {
-      "bytes": 2196,
+    "snowpack-react-swapi/dist/components/PeopleList.js": {
+      "bytes": 2217,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -455,15 +455,15 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/request.js",
+          "path": "snowpack-react-swapi/dist/request.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/queries.js",
+          "path": "snowpack-react-swapi/dist/queries.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/store.js",
+          "path": "snowpack-react-swapi/dist/store.js",
           "kind": "import-statement"
         }
       ]
@@ -493,8 +493,8 @@
         }
       ]
     },
-    "dist/components/Person.js": {
-      "bytes": 3246,
+    "snowpack-react-swapi/dist/components/Person.js": {
+      "bytes": 3273,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -533,28 +533,28 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/request.js",
+          "path": "snowpack-react-swapi/dist/request.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/queries.js",
+          "path": "snowpack-react-swapi/dist/queries.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/store.js",
+          "path": "snowpack-react-swapi/dist/store.js",
           "kind": "import-statement"
         }
       ]
     },
-    "dist/App.js": {
-      "bytes": 985,
+    "snowpack-react-swapi/dist/App.js": {
+      "bytes": 991,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/components/NavBar.js",
+          "path": "snowpack-react-swapi/dist/components/NavBar.js",
           "kind": "import-statement"
         },
         {
@@ -562,25 +562,25 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/components/PeopleList.js",
+          "path": "snowpack-react-swapi/dist/components/PeopleList.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/components/Person.js",
+          "path": "snowpack-react-swapi/dist/components/Person.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/store.js",
+          "path": "snowpack-react-swapi/dist/store.js",
           "kind": "import-statement"
         }
       ]
     },
-    "dist/index.css": {
+    "snowpack-react-swapi/dist/index.css": {
       "bytes": 99,
       "imports": []
     },
-    "dist/index.js": {
-      "bytes": 513,
+    "snowpack-react-swapi/dist/index.js": {
+      "bytes": 522,
       "imports": [
         {
           "path": "_snowpack/env.js",
@@ -595,18 +595,18 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/App.js",
+          "path": "snowpack-react-swapi/dist/App.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/index.css",
+          "path": "snowpack-react-swapi/dist/index.css",
           "kind": "import-statement"
         }
       ]
     }
   },
   "outputs": {
-    "../~~bundle~~/dist/index.js": {
+    "../~~bundle~~/snowpack-react-swapi/dist/index.js": {
       "imports": [],
       "exports": [],
       "inputs": {
@@ -652,7 +652,7 @@
         "_snowpack/pkg/@material-ui/core/styles.js": {
           "bytesInOutput": 115
         },
-        "dist/components/NavBar.js": {
+        "snowpack-react-swapi/dist/components/NavBar.js": {
           "bytesInOutput": 242
         },
         "_snowpack/pkg/@material-ui/core/Grid.js": {
@@ -676,40 +676,40 @@
         "_snowpack/pkg/graphql-request.js": {
           "bytesInOutput": 27308
         },
-        "dist/request.js": {
+        "snowpack-react-swapi/dist/request.js": {
           "bytesInOutput": 76
         },
-        "dist/queries.js": {
+        "snowpack-react-swapi/dist/queries.js": {
           "bytesInOutput": 479
         },
-        "dist/store.js": {
+        "snowpack-react-swapi/dist/store.js": {
           "bytesInOutput": 25
         },
-        "dist/components/PeopleList.js": {
+        "snowpack-react-swapi/dist/components/PeopleList.js": {
           "bytesInOutput": 831
         },
         "_snowpack/pkg/@material-ui/core/ListSubheader.js": {
           "bytesInOutput": 951
         },
-        "dist/components/Person.js": {
+        "snowpack-react-swapi/dist/components/Person.js": {
           "bytesInOutput": 1219
         },
-        "dist/App.js": {
+        "snowpack-react-swapi/dist/App.js": {
           "bytesInOutput": 340
         },
-        "dist/index.css": {
+        "snowpack-react-swapi/dist/index.css": {
           "bytesInOutput": 0
         },
-        "dist/index.js": {
+        "snowpack-react-swapi/dist/index.js": {
           "bytesInOutput": 123
         }
       },
       "bytes": 247190
     },
-    "../~~bundle~~/dist/index.css": {
+    "../~~bundle~~/snowpack-react-swapi/dist/index.css": {
       "imports": [],
       "inputs": {
-        "dist/index.css": {
+        "snowpack-react-swapi/dist/index.css": {
           "bytesInOutput": 83
         }
       },

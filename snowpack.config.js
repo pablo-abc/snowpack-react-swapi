@@ -1,7 +1,7 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    public: {url: process.env.CI ? '/snowpack-react-swapi' : '/', static: true},
+    public: {url: '/', static: true},
     src: {url: process.env.CI ? '/snowpack-react-swapi/dist' : '/dist'},
   },
   plugins: ['@snowpack/plugin-react-refresh', '@snowpack/plugin-dotenv'],
